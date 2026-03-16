@@ -54,7 +54,7 @@ module.exports = {
         // Custom Ancientech Academy colors
         'deep-void': '#0A0D14',
         'dark-slate': '#181A20',
-        'electric-teal': '#00E699',
+        'electric-teal': '#3B82F6',
         'cyber-violet': '#8A2BE2',
         'bright-white': '#FFFFFF',
         'light-gray': '#AAAAAA',

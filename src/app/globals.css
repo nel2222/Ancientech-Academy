@@ -75,12 +75,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00E699;
+  background: #3B82F6;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00b87a;
+  background: #2563EB;
 }
 
 /* Smooth animations */
@@ -92,7 +92,7 @@
 
 /* Glow effects */
 .glow-teal {
-  box-shadow: 0 0 20px rgba(0, 230, 153, 0.3);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.35);
 }
 
 .glow-violet {
