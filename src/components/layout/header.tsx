@@ -23,22 +23,40 @@ export function Header() {
         
         <nav className="hidden md:flex items-center space-x-6">
           <Link 
-            href="/#courses" 
+            href="/" 
             className="text-sm font-medium text-light-gray hover:text-electric-teal transition-colors"
           >
-            Courses
+            Home
+          </Link>
+          <Link 
+            href="/training" 
+            className="text-sm font-medium text-light-gray hover:text-electric-teal transition-colors"
+          >
+            Training
           </Link>
           <Link 
             href="/cyber-awakening" 
             className="text-sm font-medium text-light-gray hover:text-electric-teal transition-colors"
           >
-            Cyber Awakening
+            CyberAwakening
           </Link>
           <Link 
-            href="/#testimonials" 
+            href="/services" 
             className="text-sm font-medium text-light-gray hover:text-electric-teal transition-colors"
           >
-            Testimonials
+            Services
+          </Link>
+          <Link
+            href="/about"
+            className="text-sm font-medium text-light-gray hover:text-electric-teal transition-colors"
+          >
+            About Us
+          </Link>
+          <Link 
+            href="/contact" 
+            className="text-sm font-medium text-light-gray hover:text-electric-teal transition-colors"
+          >
+            Contact Us
           </Link>
         </nav>
 
