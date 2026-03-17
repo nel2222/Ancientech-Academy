@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { XLogo } from "@/components/icons/x-logo"
 
 export function Footer() {
   return (
@@ -29,8 +30,8 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm text-light-gray">
               <li>
-                <Link href="/#courses" className="hover:text-electric-teal transition-colors">
-                  Courses
+                <Link href="/training" className="hover:text-electric-teal transition-colors">
+                  Training
                 </Link>
               </li>
               <li>
@@ -43,19 +44,14 @@ export function Footer() {
                   Testimonials
                 </Link>
               </li>
-              <li>
-                <Link href="/dashboard" className="hover:text-electric-teal transition-colors">
-                  Dashboard
-                </Link>
-              </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Courses</h3>
+            <h3 className="font-semibold mb-4">Training</h3>
             <ul className="space-y-2 text-sm text-light-gray">
               <li>AI Security</li>
-              <li>Cybersecurity</li>
+              <li>Cyber Awakening</li>
               <li>Web3 Security</li>
             </ul>
           </div>
@@ -65,17 +61,61 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-light-gray">
               <li className="flex items-center space-x-2">
                 <Mail className="h-4 w-4" />
-                <span>info@ancientech.academy</span>
+                <a
+                  href="mailto:info@ancientechacademy.org"
+                  className="hover:text-electric-teal transition-colors"
+                >
+                  info@ancientechacademy.org
+                </a>
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+234 XXX XXX XXXX</span>
+                <span>+2348126758544</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />
-                <span>Lagos, Nigeria</span>
+                <span>Edo, Nigeria</span>
               </li>
             </ul>
+
+            <div className="mt-4 flex items-center gap-3">
+              <a
+                href="https://www.facebook.com/profile.php?id=61580270784903"
+                target="_blank"
+                rel="noreferrer"
+                className="text-light-gray hover:text-electric-teal transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a
+                href="https://x.com/ancientechcyber?t=Q1UhhVbBgHdFYGwOAm4FDw&s=09"
+                target="_blank"
+                rel="noreferrer"
+                className="text-light-gray hover:text-electric-teal transition-colors"
+                aria-label="X"
+              >
+                <XLogo className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.instagram.com/ancientechcyber?igsh=MjYwcjJ2ZjVyc2I0"
+                target="_blank"
+                rel="noreferrer"
+                className="text-light-gray hover:text-electric-teal transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/ancienttech-cybersecurity-academy/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-light-gray hover:text-electric-teal transition-colors"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="h-5 w-5" />
+              </a>
+            </div>
           </div>
         </div>
 
