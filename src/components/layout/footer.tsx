@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Shield, Mail, MapPin, Phone } from "lucide-react"
+import Image from "next/image"
+import { Mail, MapPin, Phone } from "lucide-react"
 
 export function Footer() {
   return (
@@ -8,7 +9,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Shield className="h-6 w-6 text-electric-teal" />
+              <Image
+                src="/logo.png"
+                alt="Ancientech Academy logo"
+                width={28}
+                height={28}
+                className="h-7 w-7"
+              />
               <span className="font-bold">
                 <span className="text-electric-teal">Ancientech</span> Academy
               </span>
