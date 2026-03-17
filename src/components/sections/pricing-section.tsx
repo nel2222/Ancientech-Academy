@@ -1,17 +1,33 @@
 "use client"
 
 import { useState } from "react"
-import { Check, Brain, Shield, Blocks } from "lucide-react"
+import { Check, Brain, Zap, Blocks } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const courses = [
   {
+    id: "cyber-awakening",
+    title: "Cyber Awakening",
+    description: "An immersive program to sharpen your cyber mindset and practical skills",
+    price: 100,
+    icon: Zap,
+    features: [
+      "Beginner-friendly onboarding",
+      "Weekly challenges & tasks",
+      "Community accountability",
+      "Hands-on labs",
+      "Portfolio-ready projects",
+      "Career guidance & support"
+    ],
+    popular: true
+  },
+  {
     id: "ai-security",
     title: "AI Security",
     description: "Master the security challenges of artificial intelligence systems",
-    price: 100,
+    price: 200,
     icon: Brain,
     features: [
       "AI Model Security",
@@ -21,22 +37,6 @@ const courses = [
       "AI Ethics & Compliance",
       "Real-world AI Security Labs"
     ]
-  },
-  {
-    id: "cybersecurity",
-    title: "Cybersecurity",
-    description: "Comprehensive training in modern cybersecurity practices",
-    price: 100,
-    icon: Shield,
-    features: [
-      "Network Security Fundamentals",
-      "Penetration Testing",
-      "Security Operations Center (SOC)",
-      "Incident Response",
-      "Cloud Security",
-      "Hands-on Security Labs"
-    ],
-    popular: true
   },
   {
     id: "web3-security",

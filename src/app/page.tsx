@@ -3,7 +3,6 @@ import { Footer } from "@/components/layout/footer"
 import { HeroSection } from "@/components/sections/hero-section"
 import { PricingSection } from "@/components/sections/pricing-section"
 import { TestimonialsSection } from "@/components/sections/testimonials-section"
-import { CertificateSection } from "@/components/sections/certificate-section"
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
       <HeroSection />
       <PricingSection />
       <TestimonialsSection />
-      <CertificateSection />
       <Footer />
     </main>
   )
