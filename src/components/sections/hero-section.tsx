@@ -20,23 +20,22 @@ export function HeroSection() {
 
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Master the Art of
+          Training the 
             <span className="block text-electric-teal mt-2">
-              Cybersecurity
+              Guardians of Tomorrow
             </span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-light-gray max-w-2xl mx-auto">
-            Join Ancientech Academy and become a certified security professional. 
-            Specialized training in AI Security, Cybersecurity, and Web3 Security.
+          CyberSecurity • Artificial Intelligence Security • Web3 Security <br /> Unified in One Stack
           </p>
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/training">
               <Button size="lg" className="text-base px-8 glow-teal">
-                Explore Training
+              Apply Now
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
@@ -46,6 +45,9 @@ export function HeroSection() {
               </Button>
             </Link>
           </div>
+          
+          {/* Quick Note */}
+          <p className="text-sm text-light-gray max-w-2xl mx-auto">Ancientech Academy is Africa’s pioneering tech institute, born in the trenches of ethical hacking and built for resilience. We fuse Cybersecurity, Artificial Intelligence, and Web3 into one unified curriculum preparing innovators to defend, disrupt, and decentralize the digital future.</p>
 
           {/* Feature highlights */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12">
@@ -53,7 +55,7 @@ export function HeroSection() {
               <div className="p-3 rounded-full bg-electric-teal/10">
                 <Shield className="h-6 w-6 text-electric-teal" />
               </div>
-              <h3 className="font-semibold">Industry Expert</h3>
+              <h3 className="font-semibold">Hands-on Labs</h3>
               <p className="text-sm text-light-gray text-center">
                 Learn from certified professionals with real-world experience
               </p>
@@ -63,7 +65,7 @@ export function HeroSection() {
               <div className="p-3 rounded-full bg-cyber-violet/10">
                 <Lock className="h-6 w-6 text-cyber-violet" />
               </div>
-              <h3 className="font-semibold">Hands-on Training</h3>
+              <h3 className="font-semibold">African-centered accessibility </h3>
               <p className="text-sm text-light-gray text-center">
                 Practical labs and real-world scenarios for effective learning
               </p>
@@ -73,11 +75,22 @@ export function HeroSection() {
               <div className="p-3 rounded-full bg-electric-teal/10">
                 <Globe className="h-6 w-6 text-electric-teal" />
               </div>
-              <h3 className="font-semibold">Career Support</h3>
+              <h3 className="font-semibold">Ethical innovation</h3>
               <p className="text-sm text-light-gray text-center">
                 Job placement assistance and industry connections
               </p>
             </div>
+
+            <div className="flex flex-col items-center space-y-3 p-6 rounded-lg bg-dark-slate/50 border border-electric-teal/10">
+              <div className="p-3 rounded-full bg-electric-teal/10">
+                <Globe className="h-6 w-6 text-electric-teal" />
+              </div>
+              <h3 className="font-semibold">Future-proof skills </h3>
+              <p className="text-sm text-light-gray text-center">
+                Job placement assistance and industry connections
+              </p>
+            </div>
+
           </div>
         </div>
       </div>

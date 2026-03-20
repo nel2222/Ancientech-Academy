@@ -36,7 +36,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/cyber-awakening" className="hover:text-electric-teal transition-colors">
-                  Cyber Awakening
+                  Cyber Security Defence
                 </Link>
               </li>
               <li>
@@ -51,7 +51,7 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Training</h3>
             <ul className="space-y-2 text-sm text-light-gray">
               <li>AI Security</li>
-              <li>Cyber Awakening</li>
+              <li>Cyber Security Defence</li>
               <li>Web3 Security</li>
             </ul>
           </div>
@@ -70,7 +70,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>+2348126758544</span>
+                <span>+234 9058 902 789</span>
               </li>
               <li className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4" />

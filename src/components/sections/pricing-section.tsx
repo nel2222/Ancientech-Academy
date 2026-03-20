@@ -8,8 +8,8 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const courses = [
   {
-    id: "cyber-awakening",
-    title: "Cyber Awakening",
+    id: "cyber-security-defence",
+    title: "Cyber Security Defence",
     description: "An immersive program to sharpen your cyber mindset and practical skills",
     price: 100,
     icon: Zap,
@@ -42,7 +42,7 @@ const courses = [
     id: "web3-security",
     title: "Web3 Security",
     description: "Secure the future of decentralized applications",
-    price: 100,
+    price: 200,
     icon: Blocks,
     features: [
       "Smart Contract Auditing",
